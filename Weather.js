@@ -71,7 +71,7 @@ function Weather({ weatherName, temp }){
         );
 }
 
-Weather.propTypes = {
+Weather.propTypes = { 
     temp : propTypes.number.isRequired,
     weatherName : propTypes.string.isRequired
 }
